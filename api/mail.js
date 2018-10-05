@@ -13,7 +13,7 @@ const sendMail = ({ email, subject, text }) => {
     }
   });
   const mailOptions = {
-    from: '"Your Name" <yourgmailaddress@gmail.com>',
+    from: '"Pierre Huyghe" <yourgmailaddress@gmail.com>',
     bcc: email,
     subject: subject,
     text: text
